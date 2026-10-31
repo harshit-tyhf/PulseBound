@@ -1,5 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Example folder using LFS
+MyProject9/Binaries/*
+MyProject9/Saved/*
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
